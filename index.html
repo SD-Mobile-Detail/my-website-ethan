@@ -21,19 +21,19 @@
     padding: 40px 20px;
   }
 
-  /* 🔥 MUCH BIGGER LOGO */
+  /* BIG LOGO */
   .logo {
     width: 420px;
     max-width: 100%;
     height: auto;
     display: block;
-    margin: 20px auto 25px auto;
+    margin: 20px auto 30px auto;
     border-radius: 18px;
   }
 
   h2 {
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 700;
     color: #ffffff;
     margin-bottom: 18px;
   }
@@ -43,6 +43,7 @@
     padding: 22px;
     border-radius: 16px;
     border: 1px solid #1f2937;
+    margin-bottom: 20px;
   }
 
   .item {
@@ -51,11 +52,29 @@
     margin-bottom: 10px;
     font-size: 14px;
     color: #d1d5db;
+    line-height: 1.5;
   }
 
   .icon {
     color: #38bdf8;
     min-width: 18px;
+  }
+
+  .cta {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 14px 18px;
+    background: #38bdf8;
+    color: #0b0f17;
+    font-weight: 700;
+    border-radius: 12px;
+    text-decoration: none;
+  }
+
+  .tagline {
+    color: #38bdf8;
+    font-weight: 600;
+    margin-bottom: 10px;
   }
 
   .price {
@@ -70,26 +89,6 @@
     border-bottom: none;
   }
 
-  .tagline {
-    color: #38bdf8;
-    font-weight: 500;
-    margin-bottom: 10px;
-  }
-
-  .cta {
-    display: inline-block;
-    margin-top: 18px;
-    padding: 14px 18px;
-    background: #38bdf8;
-    color: #0b0f17;
-    font-weight: 700;
-    border-radius: 12px;
-    text-decoration: none;
-  }
-
-  .section {
-    margin-top: 60px;
-  }
 </style>
 </head>
 
@@ -97,83 +96,84 @@
 
 <div class="container">
 
-  <!-- 🔥 BIG LOGO -->
+  <!-- LOGO -->
   <img src="logo.png" class="logo" />
 
-  <!-- 🚗 DIRECT INTO SERVICE -->
-  <div class="section">
-    <h2>🧼 Our Detail Service</h2>
+  <!-- HOME -->
+  <div class="card">
 
-    <div class="card">
+    <h2><b>🏠 HOME</b></h2>
 
-      <div class="tagline">✔ Safe on paint. Deep clean. Clean finish.</div>
-
-      <div class="tagline">🚗 Exterior</div>
-
-      <div class="item"><span class="icon">✔</span> Ultra paint safe pressure wash (1800 PSI) with a wide (40°) spray nozzle removes loose dirt and cools the paint before washing begins.</div>
-
-      <div class="item"><span class="icon">✔</span> Foam cannon applies thick foam breaking down grime to be safely washed off while acting as a protective barrier for paint safety.</div>
-
-      <div class="item"><span class="icon">✔</span> Hand wash for tougher spots using lubrication for safe contact cleaning.</div>
-
-      <div class="item"><span class="icon">✔</span> Windows, mirrors, rims, and tires cleaned thoroughly.</div>
-
-      <div class="item"><span class="icon">✔</span> Microfiber hand dry for a streak-free finish.</div>
-
-      <div class="item"><span class="icon">✔</span> Tire shine applied for a clean final look.</div>
-
-      <br>
-
-      <div class="tagline">🪑 Interior</div>
-
-      <div class="item"><span class="icon">✔</span> Trash pickup and removal.</div>
-
-      <div class="item"><span class="icon">✔</span> Vacuum floors and trunk.</div>
-
-      <div class="item"><span class="icon">✔</span> Vacuum carpets and floor mats.</div>
-
-      <div class="item"><span class="icon">✔</span> Interior windows cleaned for a clear finish.</div>
-
+    <div class="item">
+      <span class="icon">✔</span>
+      Professional mobile detailing brought directly to your home.
     </div>
+
+    <div class="item">
+      <span class="icon">✔</span>
+      Clean, simple, and built on quality exterior and interior detailing with fair pricing and the convenience of service that comes to you.
+    </div>
+
+    <div class="item">
+      <span class="icon">✔</span>
+      <b>Text to Book: 442-303-6022</b>
+    </div>
+
+  </div>
+
+  <!-- SERVICE -->
+  <div class="card">
+
+    <h2><b>🚗 OUR DETAIL SERVICE</b></h2>
+
+    <div class="item">
+      <span class="icon">✔</span>
+      A complete detail focused on safely cleaning your vehicle inside and out while protecting paint and delivering a clean, finished look.
+    </div>
+
+    <div class="tagline">Safe on paint. Deep clean. Clean finish.</div>
+
+    <div class="tagline"><b>Exterior</b></div>
+
+    <div class="item"><span class="icon">✔</span> Ultra paint safe pressure wash (1800 PSI) with a wide (40°) spray nozzle removes loose dirt and cools the paint before washing begins.</div>
+
+    <div class="item"><span class="icon">✔</span> Foam cannon applies thick foam breaking down the grime to be easily and safely washed off while serving as a protective barrier on the paint to guarantee paint safety.</div>
+
+    <div class="item"><span class="icon">✔</span> Hand wash for tougher spots.</div>
+
+    <div class="item"><span class="icon">✔</span> Windows, Mirrors, Rims, Tires cleaned thoroughly</div>
+
+    <div class="item"><span class="icon">✔</span> Microfiber hand dry for a streak-free finish.</div>
+
+    <div class="item"><span class="icon">✔</span> Tire shine applied for a clean final look.</div>
+
+    <br>
+
+    <div class="tagline"><b>Interior</b></div>
+
+    <div class="item"><span class="icon">✔</span> Trash pickup and removal.</div>
+
+    <div class="item"><span class="icon">✔</span> Vacuum floors and trunk</div>
+
+    <div class="item"><span class="icon">✔</span> Vacuum carpets and floor mats.</div>
+
+    <div class="item"><span class="icon">✔</span> Interior windows cleaned for a clear finish.</div>
+
   </div>
 
   <!-- WHY -->
-  <div class="section">
-    <h2>⭐ Why Choose Us</h2>
+  <div class="card">
 
-    <div class="card">
-      <div class="item"><span class="icon">✔</span> We come to you — saving time, gas, and hassle 🚗</div>
-      <div class="item"><span class="icon">✔</span> Relax at home while your vehicle is professionally detailed</div>
-      <div class="item"><span class="icon">✔</span> Consistent quality and attention to detail every visit</div>
-      <div class="item"><span class="icon">✔</span> Fair pricing based on value, convenience, and full service</div>
+    <h2><b>⭐ WHY CHOOSE US</b></h2>
 
-      <a class="cta" href="sms:4423036022">
-        Want to book: 442 303 6022
-      </a>
+    <div class="item"><span class="icon">✔</span> We come to you — saving time, gas, and the hassle of going to a shop.</div>
 
-    </div>
-  </div>
+    <div class="item"><span class="icon">✔</span> Relax at home while your vehicle is professionally detailed.</div>
 
-  <!-- PRICING -->
-  <div class="section">
-    <h2>💰 Pricing</h2>
+    <div class="item"><span class="icon">✔</span> Consistent quality and attention to detail every visit.</div>
 
-    <div class="card">
-      <div class="price"><span>🚗 Sedan</span><span>$40</span></div>
-      <div class="price"><span>🚙 SUV / Small Truck</span><span>$45</span></div>
-      <div class="price"><span>🚛 Large SUV / Truck</span><span>$50</span></div>
-    </div>
-  </div>
+    <div class="item"><span class="icon">✔</span> Fair pricing based on real value, convenience, and full-service work.</div>
 
-  <!-- DISCOUNTS -->
-  <div class="section">
-    <h2>🎁 Discounts</h2>
-
-    <div class="card">
-      <div class="item"><span class="icon">✔</span> 2 vehicles — $5 off total</div>
-      <div class="item"><span class="icon">✔</span> 3 vehicles — $10 off total</div>
-      <div class="item"><span class="icon">✔</span> Refer a friend — $5 off for you, $5 off for them</div>
-    </div>
   </div>
 
 </div>
