@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <title>SD Mobile Detail</title>
 
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
 <style>
   body {
@@ -22,11 +22,11 @@
   }
 
   .logo {
-    width: 90px;
+    width: 120px;
     height: auto;
     display: block;
-    margin: 0 auto 18px auto;
-    border-radius: 14px;
+    margin: 0 auto 10px auto;
+    border-radius: 16px;
   }
 
   .hero {
@@ -34,9 +34,16 @@
     margin-bottom: 50px;
   }
 
-  h1 {
-    font-size: 34px;
+  .brand-tag {
+    font-size: 13px;
+    color: #38bdf8;
     font-weight: 600;
+    letter-spacing: 2px;
+  }
+
+  h1 {
+    font-size: 46px;
+    font-weight: 700;
     margin: 10px 0;
     color: #ffffff;
   }
@@ -50,11 +57,11 @@
   .cta {
     display: inline-block;
     margin-top: 18px;
-    padding: 12px 18px;
+    padding: 14px 20px;
     background: #38bdf8;
     color: #0b0f17;
-    font-weight: 600;
-    border-radius: 10px;
+    font-weight: 700;
+    border-radius: 12px;
     text-decoration: none;
   }
 
@@ -72,7 +79,7 @@
   .card {
     background: #111827;
     padding: 22px;
-    border-radius: 14px;
+    border-radius: 16px;
     border: 1px solid #1f2937;
   }
 
@@ -82,6 +89,7 @@
     margin-bottom: 10px;
     font-size: 14px;
     color: #d1d5db;
+    line-height: 1.5;
   }
 
   .icon {
@@ -106,6 +114,21 @@
     font-weight: 500;
     margin-bottom: 10px;
   }
+
+  /* Floating button */
+  .float-btn {
+    position: fixed;
+    bottom: 18px;
+    right: 18px;
+    background: #38bdf8;
+    color: black;
+    padding: 14px 16px;
+    border-radius: 50px;
+    font-weight: 700;
+    text-decoration: none;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.35);
+    z-index: 999;
+  }
 </style>
 </head>
 
@@ -113,92 +136,108 @@
 
 <div class="container">
 
-  <!-- LOGO -->
-  <img src="logo.png" class="logo" />
-
-  <!-- HOME -->
+  <!-- HERO -->
   <div class="hero">
+
+    <img src="logo.png" class="logo" />
+
+    <div class="brand-tag">✦ MOBILE DETAILING ✦</div>
+
     <h1>SD Mobile Detail</h1>
 
     <p>
-      Professional mobile detailing brought directly to your home. Clean, simple, and built on quality exterior and interior detailing with fair pricing and the convenience of service that comes to you.
+      Premium mobile detailing brought directly to your home or workplace.<br>
+      We clean, restore, and protect your vehicle — without you leaving your driveway.
     </p>
 
-    <a class="cta" href="tel:4423036022">Text to Book: 442-303-6022</a>
-  </div>
+    <a class="cta" href="sms:4423036022">
+      🚗 Get a Free Quote in 60 Seconds
+    </a>
 
-  <!-- SERVICE -->
-  <div class="section">
-    <h2>Our Detail Service</h2>
+    <p style="margin-top:10px; font-size:13px; color:#6b7280;">
+      ⚡ Limited daily slots — book early
+    </p>
 
-    <div class="card">
-
-      <div class="tagline">Safe on paint. Deep clean. Clean finish.</div>
-
-      <div class="tagline">Exterior</div>
-
-      <div class="item"><span class="icon">›</span>Ultra paint safe pressure wash (1800 PSI) with a wide (40°) spray nozzle removes loose dirt and cools the paint before washing begins.</div>
-
-      <div class="item"><span class="icon">›</span>Foam cannon applies thick foam breaking down grime to be safely washed off while acting as a protective barrier for paint safety.</div>
-
-      <div class="item"><span class="icon">›</span>Hand wash for tougher spots using lubrication for safe contact cleaning.</div>
-
-      <div class="item"><span class="icon">›</span>Windows, mirrors, rims, and tires cleaned thoroughly.</div>
-
-      <div class="item"><span class="icon">›</span>Microfiber hand dry for a streak-free finish.</div>
-
-      <div class="item"><span class="icon">›</span>Tire shine applied for a clean final look.</div>
-
-      <br>
-
-      <div class="tagline">Interior</div>
-
-      <div class="item"><span class="icon">›</span>Trash pickup and removal.</div>
-
-      <div class="item"><span class="icon">›</span>Vacuum floors and trunk.</div>
-
-      <div class="item"><span class="icon">›</span>Vacuum carpets and floor mats.</div>
-
-      <div class="item"><span class="icon">›</span>Interior windows cleaned for a clear finish.</div>
-
-    </div>
   </div>
 
   <!-- WHY -->
   <div class="section">
-    <h2>Why Choose Us</h2>
+    <h2>⭐ Why Choose Us</h2>
 
     <div class="card">
-      <div class="item"><span class="icon">›</span>We come to you — saving time, gas, and hassle</div>
-      <div class="item"><span class="icon">›</span>Relax at home while your vehicle is professionally detailed</div>
-      <div class="item"><span class="icon">›</span>Consistent quality and attention to detail every visit</div>
-      <div class="item"><span class="icon">›</span>Fair pricing based on value, convenience, and full service</div>
+      <div class="item"><span class="icon">✔</span> We come to YOU anywhere in North County 🚗</div>
+      <div class="item"><span class="icon">✔</span> Fast response — text us anytime</div>
+      <div class="item"><span class="icon">✔</span> Safe wash methods (no swirl damage)</div>
+      <div class="item"><span class="icon">✔</span> Clean, consistent, professional results</div>
+    </div>
+  </div>
+
+  <!-- SERVICE -->
+  <div class="section">
+    <h2>🧼 Our Detail Service</h2>
+
+    <div class="card">
+
+      <div class="tagline">✔ Safe on paint • Deep clean • Premium finish</div>
+
+      <div class="tagline">🚗 Exterior Detail</div>
+
+      <div class="item"><span class="icon">✔</span> Safe pre-rinse (1800 PSI + 40° nozzle)</div>
+      <div class="item"><span class="icon">✔</span> Foam cannon deep clean</div>
+      <div class="item"><span class="icon">✔</span> Hand wash for full detail coverage</div>
+      <div class="item"><span class="icon">✔</span> Wheels, tires, glass fully cleaned</div>
+      <div class="item"><span class="icon">✔</span> Streak-free microfiber dry</div>
+      <div class="item"><span class="icon">✔</span> Tire shine finish</div>
+
+      <br>
+
+      <div class="tagline">🪑 Interior Detail</div>
+
+      <div class="item"><span class="icon">✔</span> Full trash removal</div>
+      <div class="item"><span class="icon">✔</span> Deep vacuum (seats, floors, trunk)</div>
+      <div class="item"><span class="icon">✔</span> Floor mats cleaned</div>
+      <div class="item"><span class="icon">✔</span> Interior windows cleaned</div>
+
     </div>
   </div>
 
   <!-- PRICING -->
   <div class="section">
-    <h2>Pricing</h2>
+    <h2>💰 Pricing</h2>
 
     <div class="card">
-      <div class="price"><span>Sedan</span><span>$40</span></div>
-      <div class="price"><span>SUV / Small Truck</span><span>$45</span></div>
-      <div class="price"><span>Large SUV / Truck</span><span>$50</span></div>
+      <div class="price"><span>🚗 Sedan</span><span>From $40</span></div>
+      <div class="price"><span>🚙 SUV / Small Truck</span><span>From $45</span></div>
+      <div class="price"><span>🚛 Large SUV / Truck</span><span>From $50</span></div>
     </div>
   </div>
 
   <!-- DISCOUNTS -->
   <div class="section">
-    <h2>Discounts</h2>
+    <h2>🎁 Discounts</h2>
 
     <div class="card">
-      <div class="item"><span class="icon">›</span>2 vehicles — $5 off total</div>
-      <div class="item"><span class="icon">›</span>3 vehicles — $10 off total</div>
-      <div class="item"><span class="icon">›</span>Refer a friend — $5 off for you, $5 off for them</div>
+      <div class="item"><span class="icon">✔</span> 2 vehicles → $5 off</div>
+      <div class="item"><span class="icon">✔</span> 3 vehicles → $10 off</div>
+      <div class="item"><span class="icon">✔</span> Refer a friend → $5 off both</div>
+    </div>
+  </div>
+
+  <!-- FINAL CTA -->
+  <div class="section">
+    <div class="card" style="text-align:center;">
+      <h2>📲 Ready to Book?</h2>
+      <p>Fast response. We come to your location.</p>
+      <a class="cta" href="sms:4423036022">🚗 Get Your Quote Now</a>
     </div>
   </div>
 
 </div>
+
+<!-- FLOATING BUTTON -->
+<a class="float-btn" href="sms:4423036022">
+📩 Quote
+</a>
 
 </body>
 </html>
